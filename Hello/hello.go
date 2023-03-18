@@ -13,6 +13,12 @@ func main() {
 			fmt.Println(i, "bye")
 		}
 	}
+	num, e := fmt.Println("get answer")
+	fmt.Println(num)
+	fmt.Println(e)
+
+	n, _ := fmt.Println("get answer2")
+	fmt.Println(n)
 }
 
 func Bye() {
