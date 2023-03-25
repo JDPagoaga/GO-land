@@ -29,7 +29,11 @@ func main() {
 	fmt.Println(z)
 	fmt.Println(m)
 	fmt.Println("default value of int", b)
+	//command to know type of variable
+	fmt.Printf("%T\n", b)
 	fmt.Println("default value of string*", c, "*")
+	fmt.Printf("%T\n", c)
 	fmt.Println("default value of boolean", flag)
+	fmt.Printf("%T\n", flag)
 
 }
